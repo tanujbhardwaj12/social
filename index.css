@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+body{
+    background-color: #eef7fe;
+    font-family: "Nunito Sans", sans-serif;
+
+}
+
+.header-section{
+    background: #252679;
+border-radius: 10px;
+display: flex;
+width:fit-content;
+    margin: auto;
+padding: 10px;
+}
+#download{
+    margin-top: 17px;
+
+}
+.header-section a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    background-color: #e6600e;
+    border-radius: 17px;
+}
+
+
+.social-section div .social {
+    text-decoration: none;
+    color: black;
+
+}
+.social div{
+    padding: 20px;
+    background-color: white;
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    margin-top: 20px;
+border-radius: 15px;
+font-weight: 600;
+font-size: 22px;
+}
+.social div img{
+    margin-right: 7px;
+}
+footer{
+    border-top: 1px solid black ;
+    margin-top: 10px;
+}
+
+footer p{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 700;
+    font-style: italic;
+    
+}
+
+    @media screen and (max-width: 1200px){
+        .social div{
+          
+            width: 46%;
+           
+        }
+    }
+
+    @media screen and (max-width: 768px){
+        .social div{
+          
+            width: 100%;
+           
+        }
+        .header-section{
+       
+        display: flex;
+        width:100%;
+        justify-content: space-between;
+        margin: 0;
+          
+        }
+        
+    }
+    @media screen and (max-width: 345px){
+       
+        .social div {
+         
+            font-size: 20px;
+        }
+        .header-section a {
+          font-size: 11px;
+        }
+    }
+
+    
