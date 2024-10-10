@@ -46,12 +46,18 @@ margin-top: 15px;
     text-align: center;
     margin-top: 20px;
 border-radius: 15px;
-font-weight: 600;
+font-weight: 700;
 font-size: 22px;
 margin-bottom: 10px;
 }
 .social div img{
     margin-right: 7px;
+}
+.follow-section h2{
+    font-size: 24px;
+}
+.follow-section p{
+    font-size: 25px;
 }
 footer{
     border-top: 1px solid black ;
