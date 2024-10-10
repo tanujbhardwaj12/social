@@ -30,7 +30,9 @@ margin-top: 15px;
     border-radius: 17px;
 }
 
-
+.follow-section img{
+    width: 12%;
+}
 .social-section div .social {
     text-decoration: none;
     color: black;
@@ -86,6 +88,11 @@ footer p{
     }
 
     @media screen and (max-width: 768px){
+
+        .follow-section img{
+            width: 30%;
+        }
+
         .social div{
           
             width: 100%;
@@ -97,10 +104,16 @@ footer p{
         width:100%;
         justify-content: space-between;
         margin: 0;
+        margin-top: 15px;
           
         }
         footer {
             width: 90%;
+            
+        }
+        .header-section a {
+            
+            font-size: 10px;
             
         }
         
@@ -109,11 +122,14 @@ footer p{
        
         .social div {
          
-            font-size: 20px;
+            font-size: 18px;
             margin-bottom: 10px;
         }
         .header-section a {
-          font-size: 11px;
+          font-size: 8px;
+        }
+        .follow-section img{
+            width: 36%;
         }
     }
 
